@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookAppointment,MacOS - Safari 16,,,2023-09-25 11:52:54,2023-09-25 11:54:10,"1m - 15,451s",PASSED
+,,,,,,,
+Test Cases/Login,MacOS - Safari 16,,,2023-09-25 11:52:55,2023-09-25 11:53:56,"1m - 1,004s",PASSED
+"openBrowser("""")",MacOS - Safari 16,,,2023-09-25 11:52:55,2023-09-25 11:53:48,"52,993s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",MacOS - Safari 16,,,2023-09-25 11:53:48,2023-09-25 11:53:49,"1,233s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",MacOS - Safari 16,,,2023-09-25 11:53:49,2023-09-25 11:53:51,"1,285s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",MacOS - Safari 16,,,2023-09-25 11:53:51,2023-09-25 11:53:53,"2,437s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",MacOS - Safari 16,,,2023-09-25 11:53:53,2023-09-25 11:53:55,"1,564s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",MacOS - Safari 16,,,2023-09-25 11:53:55,2023-09-25 11:53:56,"1,107s",PASSED
+,,,,,,,
+Test Cases/BookAnAppointment,MacOS - Safari 16,,,2023-09-25 11:53:56,2023-09-25 11:54:10,"14,182s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",MacOS - Safari 16,,,2023-09-25 11:53:56,2023-09-25 11:54:02,"6,262s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",MacOS - Safari 16,,,2023-09-25 11:54:02,2023-09-25 11:54:03,"1,051s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",MacOS - Safari 16,,,2023-09-25 11:54:03,2023-09-25 11:54:04,"1,068s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",MacOS - Safari 16,,,2023-09-25 11:54:04,2023-09-25 11:54:05,"1,159s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_19""))",MacOS - Safari 16,,,2023-09-25 11:54:05,2023-09-25 11:54:07,"1,107s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""This is an automated test."")",MacOS - Safari 16,,,2023-09-25 11:54:07,2023-09-25 11:54:09,"2,179s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",MacOS - Safari 16,,,2023-09-25 11:54:09,2023-09-25 11:54:10,"1,085s",PASSED
+"example.MyKeywords.Congrats(""Nabil"")",MacOS - Safari 16,,,2023-09-25 11:54:10,2023-09-25 11:54:10,"0,015s",PASSED

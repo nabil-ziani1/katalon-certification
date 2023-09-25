@@ -34,3 +34,5 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/butto
 
 CustomKeywords.'example.MyKeywords.Congrats'('Nabil')
 
+WebUI.takeScreenshotAsCheckpoint('booking_confirmation')
+

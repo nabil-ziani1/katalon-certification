@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookAppointment,Linux - Firefox 95.0,,,2023-09-25 11:47:20,2023-09-25 11:48:17,"57,257s",PASSED
+,,,,,,,
+Test Cases/Login,Linux - Firefox 95.0,,,2023-09-25 11:47:20,2023-09-25 11:48:02,"41,923s",PASSED
+"openBrowser("""")",Linux - Firefox 95.0,,,2023-09-25 11:47:20,2023-09-25 11:47:54,"33,579s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Linux - Firefox 95.0,,,2023-09-25 11:47:54,2023-09-25 11:47:55,"1,529s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Linux - Firefox 95.0,,,2023-09-25 11:47:55,2023-09-25 11:47:57,"1,326s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Linux - Firefox 95.0,,,2023-09-25 11:47:57,2023-09-25 11:47:59,"2,356s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Linux - Firefox 95.0,,,2023-09-25 11:47:59,2023-09-25 11:48:01,"1,527s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Linux - Firefox 95.0,,,2023-09-25 11:48:01,2023-09-25 11:48:02,"1,277s",PASSED
+,,,,,,,
+Test Cases/BookAnAppointment,Linux - Firefox 95.0,,,2023-09-25 11:48:02,2023-09-25 11:48:17,"15,085s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Linux - Firefox 95.0,,,2023-09-25 11:48:02,2023-09-25 11:48:08,"5,509s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Linux - Firefox 95.0,,,2023-09-25 11:48:08,2023-09-25 11:48:09,"1,522s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Linux - Firefox 95.0,,,2023-09-25 11:48:09,2023-09-25 11:48:10,"1,379s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Linux - Firefox 95.0,,,2023-09-25 11:48:10,2023-09-25 11:48:12,"1,377s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_19""))",Linux - Firefox 95.0,,,2023-09-25 11:48:12,2023-09-25 11:48:13,"1,395s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""This is an automated test."")",Linux - Firefox 95.0,,,2023-09-25 11:48:13,2023-09-25 11:48:16,"2,398s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Linux - Firefox 95.0,,,2023-09-25 11:48:16,2023-09-25 11:48:17,"1,233s",PASSED
+"example.MyKeywords.Congrats(""Nabil"")",Linux - Firefox 95.0,,,2023-09-25 11:48:17,2023-09-25 11:48:17,"0,012s",PASSED
