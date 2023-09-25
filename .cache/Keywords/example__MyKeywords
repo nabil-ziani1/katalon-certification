@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "15C0C16E470C2213007B9F2FAF8FE42F",
+  "keywordClasses": [
+    {
+      "name": "example.MyKeywords",
+      "keywordMethods": [
+        {
+          "name": "AppLogin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Congrats",
+          "parameters": [
+            {
+              "name": "User",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
