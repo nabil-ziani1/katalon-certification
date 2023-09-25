@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BookAppointment,Chrome 117.0.0.0,,,2023-09-25 09:44:51,2023-09-25 09:45:09,"18,425s",FAILED
+,,,,,,,
+Test Cases/Login,Chrome 117.0.0.0,,,2023-09-25 09:45:03,2023-09-25 09:45:07,"3,773s",FAILED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-09-25 09:45:03,2023-09-25 09:45:05,"2,113s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 117.0.0.0,,,2023-09-25 09:45:05,2023-09-25 09:45:06,"1,129s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 117.0.0.0,,,2023-09-25 09:45:06,2023-09-25 09:45:07,"0,516s",FAILED
+,,,,,,,
+Test Cases/BookAnAppointment,Chrome 117.0.0.0,,,2023-09-25 09:45:09,2023-09-25 09:45:09,"0,516s",FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 117.0.0.0,,,2023-09-25 09:45:09,2023-09-25 09:45:09,"0,510s",FAILED
